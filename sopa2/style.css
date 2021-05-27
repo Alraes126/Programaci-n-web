@@ -1,0 +1,72 @@
+
+p {
+  font: 22pt ;
+  margin: 20px 20px 0px 20px;
+}
+
+
+#juego {
+  border: 1px solid gray;
+  padding: 20px;
+  float: left;
+  margin: 30px 20px;
+}
+
+#juego div {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* estilo para cada cuadrito */
+#juego .puzzleSquare {
+  height: 30px;
+  width: 30px;
+  text-transform: uppercase;
+  background-color:steelblue;
+  border: 0;
+  font: 1em sans-serif;
+}
+
+button::-moz-focus-inner {
+  border: solid;
+}
+
+/* cuando un cuadro es seleccionado */
+#juego .selected {
+  background-color: yellowgreen;
+}
+
+/* indicates that the square is part of a word that has been found */ 
+#juego .found {
+  background-color: red;
+  color: white;
+}
+
+#juego .solved {
+  background-color: gold;
+  color: white;
+}
+
+/* indicates that all words have been found */
+#juego .complete {
+  background-color: green;
+}
+
+
+#Palabras {
+        padding-top: 21px;
+}
+#Palabras ul {
+  list-style-type: none;
+}
+
+#Palabras li {
+  padding: 3px 0;
+  font: 1em sans-serif;
+}
+
+/* indicates that the word has been found */
+#Palabras .wordFound {
+  text-decoration: line-through;
+  color: purple;
+}
